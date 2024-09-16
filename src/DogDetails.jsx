@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./DogDetails.css";
 export default function DogDetails({ dog }) {
   return (
-    <div className="DogDetails row justify-content-center">
+    <div className="DogDetails row justify-content-center mt-4 mb-3">
       <div className="col-11 col-lg-5">
         <div className="DogDetails-card card">
           <img src={dog.src} alt={dog.name} className="card-img-top" />
